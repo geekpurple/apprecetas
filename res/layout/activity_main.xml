@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:paddingBottom="50dp"
+    android:paddingTop="0dp"   
+    tools:context=".MainActivity"
+    tools:ignore="ContentDescription" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="-25sp"
+        android:layout_weight="2.91"
+        android:src="@drawable/logo" />
+    
+    <Button
+        android:id="@+id/buttonReceta"
+        style="@style/boton_redondeado"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"        
+        android:background="@drawable/boton_verde"
+        android:text="@string/Recetas" />
+
+    <Button
+        android:id="@+id/buttonFavori"
+        style="@style/boton_redondeado"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/boton_amarillo"
+        android:text="@string/Favoritas" />
+
+    <Button
+        android:id="@+id/buttonListaC"
+        style="@style/boton_redondeado"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/boton_naranja"
+        android:text="@string/ListaCompra" />
+
+    <Button
+        android:id="@+id/buttonTienda"
+        style="@style/boton_redondeado"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/boton_coral"
+        android:text="@string/Tienda" />
+
+</LinearLayout>
